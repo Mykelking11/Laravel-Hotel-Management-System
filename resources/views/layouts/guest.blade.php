@@ -20,14 +20,11 @@
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
                 </a>
-<<<<<<< HEAD
                 <center>
                     <a href="/" class="text-white mt-2">
                         &larr; Go back
                     </a>
                 </center>
-=======
->>>>>>> 9a4cab685a4f0b64334d46c6214bd1a2266f4792
             </div>
 
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">

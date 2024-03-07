@@ -1,11 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-<<<<<<< HEAD
             {{ __('Hotel Management Customer Dashboard') }}
-=======
-            {{ __('Dashboard') }}
->>>>>>> 9a4cab685a4f0b64334d46c6214bd1a2266f4792
         </h2>
     </x-slot>
 

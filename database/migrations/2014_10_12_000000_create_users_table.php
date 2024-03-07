@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+<<<<<<< HEAD
         if(!Schema::hasTable('users')){
             Schema::create('users', function (Blueprint $table) {
                 $table->id();
@@ -24,6 +25,17 @@ return new class extends Migration
                 $table->timestamps();
             });
         }
+=======
+        Schema::create('users', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->rememberToken();
+            $table->timestamps();
+        });
+>>>>>>> 9a4cab685a4f0b64334d46c6214bd1a2266f4792
     }
 
     /**
